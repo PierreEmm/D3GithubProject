@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+SC|Cantata+One|Cinzel|Cormorant+SC|Frank+Ruhl+Libre|Gilda+Display|Marcellus|Prata|Rozha+One|Taviraj');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC|Playfair+Display|Ultra');
+@import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+  line-height: 1.45;
+  text-align: center;
+}
+
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', black;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #fff
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  text-align: center;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+#sections {
+  text-align: center;
+}
+
+#section01 h1 {
+  font-family: 'Alegreya', serif; font-size: 5em;
+  font-weight: 800 ;
+}
+
+#section01 p{
+  font-family: 'Cantata One', serif;
+  font-size: 1.2em;
+  font-weight: 2;
+}
+
+#section01 h1{
+  color: #000;
+}
+
+#section02 h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 5em ;
+  font-weight: 800 ;
+}
+
+#section02 p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2em;
+  font-weight: 2;
+}
+
+#section02 h1{
+  color: #000;
+}
+
+#section03 h1 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 5em ;
+  font-weight: 800 ;
+}
+
+#section03 p {
+  font-family: 'Marcellus', serif;
+  font-size: 1.2em;
+  font-weight: 2;
+}
+
+#section03 img{
+  height: 450px;
+}
+
+#section03 h1{
+  color: #000;
+}
+
+#section04 h1 {
+  font-family: 'Prata', serif;
+  font-size: 5em ;
+  font-weight: 800 ;
+}
+
+#section04 p {
+  font-family: 'Mali', cursive;
+  font-size: 1.2em;
+  font-weight: 2;
+}
+
+#section04 img{
+  height: 450px;
+}
+
+#section04 h1{
+  color: #000;
+}
+
+#section05 h1 {
+  font-family: 'Vidaloka', serif;
+  font-size: 5em ;
+  font-weight: 800 ;
+}
+
+#section05 p {
+  font-family: 'Poiret One', cursive;
+  font-size: 1.2em;
+  font-weight: 2;
+}
+
+#section05 h1{
+  color: #000;
+}

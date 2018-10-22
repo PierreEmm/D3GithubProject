@@ -1,0 +1,112 @@
+/* Ceci est un commentaire en CSS - Les navigateurs ignorent les commentaires.
+De cette manière nous pouvons laisser des messages pour d'autres codeurs et des explications de ce que nous avons fait. */
+
+/* Dans les 4 selectors suivants nous allons travailler sur la navigation de notre page.
+
+Nous découvrons ici la possibilité d'utiliser des selectors composés ex : header ul  Ceci permet, par exemple, de cibler les elements de la liste du header sans affecter ceux du footer.
+ */
+header {
+  background: transparent;
+  padding: 12px;
+}
+
+header ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+header li {
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+header a {
+  text-decoration: none;
+  color : #000;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+/* A noter ici :
+1. L'utilisation d'une class sur la div, nous la ciblons ici dans la CSS au moyen d'un point .
+2. l'utilisation de background image et de background size
+3. une hauteur minimal à la div. (pour comprendre ce qu'est une VH : https://css-tricks.com/the-lengths-of-css/)
+*/
+.hero {
+  	width: 100%;
+  	height: 750px;
+  	background: url('images/esopebackhero.jpg') no-repeat;
+  min-height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+
+
+/* Sur les sections :
+1. Nous utilisons encore une hauteur minimale pour faciliter la lecture et le rythme vertical de la page.
+2. Nous utilsons des classes pour permettre d'aleterner visuellement les sections.
+*/
+section {
+  min-height: 60vh;
+  padding: 42px;
+}
+
+.odd {
+  background: #fff;
+}
+
+.even {
+  background: #cbcbd0;
+}
+
+/* Nous souhaitons que les images soient responsives... c'est à dire n'éxcèdent pas une certaine largeur ET se redimensionnent avec leur parent */
+
+.image-block {
+  max-width: 640px;
+  border: 12px solid transparent;
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+
+}
+
+
+footer {
+  min-height: 20vh;
+  background: #cbcbd0;
+  color : #fff;
+  text-align: center;
+}
+footer ul {
+  list-style-type: none;
+}
+
+/*
+
+// Small devices
+
+// Medium devices (landscape phones, 576px and up)
+@media (min-width: 640px) { ... }
+
+// Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// Extra large devices
+
+@media (min-width: 1440px) { ... }
+
+*/
