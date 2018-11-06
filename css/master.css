@@ -56,6 +56,17 @@ header a {
 section {
   min-height: 60vh;
   padding: 42px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.illustration{
+  flex-basis: 480px;
+}
+
+.content{
+  flex-basis: 480px;
 }
 
 .odd {
